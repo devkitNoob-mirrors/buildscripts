@@ -35,7 +35,7 @@ case "$VERSION" in
     NEWLIB_VER=4.6.0.20260123
     BINUTILS_PKGREL=2
     GCC_PKGREL=7
-    NEWLIB_PKGREL=4
+    NEWLIB_PKGREL=5
     basedir='dkarm-eabi'
     package=devkitARM
     target=arm-none-eabi
