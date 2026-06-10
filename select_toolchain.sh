@@ -29,6 +29,7 @@ do
 done
 
 case "$VERSION" in
+# devkitARM
   "1" )
     BINUTILS_VER=2.45.1
     GCC_VER=15.2.0
@@ -45,13 +46,14 @@ case "$VERSION" in
     _rules_ver=${DKARM_RULES_VER}
     _crtls_ver=${DKARM_CRTLS_VER}
   ;;
+# devkitPPC
   "2" )
-    BINUTILS_VER=2.45.1
-    GCC_VER=15.2.0
+    BINUTILS_VER=2.46.0
+    GCC_VER=16.1.0
     MN_BINUTILS_VER=2.24
     NEWLIB_VER=4.6.0.20260123
-    BINUTILS_PKGREL=2
-    GCC_PKGREL=7
+    BINUTILS_PKGREL=1
+    GCC_PKGREL=1
     NEWLIB_PKGREL=4
     basedir='dkppc'
     package=devkitPPC
@@ -63,6 +65,7 @@ case "$VERSION" in
     _rules_ver=${DKPPC_RULES_VER}
     _crtls_ver=${DKPPC_CRTLS_VER}
   ;;
+# devkitA64
   "3" )
     GCC_VER=15.2.0
     BINUTILS_VER=2.45.1
