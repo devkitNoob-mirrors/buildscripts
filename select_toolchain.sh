@@ -67,11 +67,11 @@ case "$VERSION" in
   ;;
 # devkitA64
   "3" )
-    GCC_VER=15.2.0
-    BINUTILS_VER=2.45.1
+    GCC_VER=16.1.0
+    BINUTILS_VER=2.46.0
     NEWLIB_VER=4.6.0.20260123
-    BINUTILS_PKGREL=2
-    GCC_PKGREL=7
+    BINUTILS_PKGREL=1
+    GCC_PKGREL=1
     NEWLIB_PKGREL=4
     basedir='dka64'
     package=devkitA64
